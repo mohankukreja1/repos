@@ -1,5 +1,5 @@
 const express=require('express')
-const config=require('config')
+const config=require('./config')
 const path=require('path')
 const app=express()
 app.use('/',express.static(path.join(__dirname,'frontend')))
